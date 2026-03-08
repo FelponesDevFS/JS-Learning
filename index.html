@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botão</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Botão</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
-    <button onclick="clicar()" onmouseenter="entrar()">Escuro</button>
-    <script src="script.js"></script>
+
+<header class="cabecalho">
+
+<div class="logo">
+<img src="https://static3.tgcnt.ru/posts/_0/87/878f1af885a38d91b7efcfa4abdabcc5.jpg">
+<h1 class="title">FelponesProjects</h1>
+</div>
+
+<nav class="list-button">
+
+<a class="btn-single" href="">
+<i class="fa-solid fa-house fa-lg"></i>
+<span class="tooltip">Home</span>
+</a>
+
+<a class="btn-single" href="">
+<i class="fa-solid fa-user"></i>
+<span class="tooltip">Profile</span>
+</a>
+
+<a class="btn-single" href="">
+<i class="fa-solid fa-folder"></i>
+<span class="tooltip">Projects</span>
+</a>
+
+<a class="btn-single" href="">
+<i id="gear-icon" class="fa-solid fa-gear fa-lg"></i>
+<span class="tooltip">Settings</span>
+</a>
+
+<a class="btn-registre" href="">
+Sign-up
+
+</a>
+</nav>
+
+</header>
+
+<main>
+    
+<section class="hero">
+
+<h1 class="hero-title">
+Bem-vindo ao FelponesProjects
+</h1>
+
+<p class="hero-text">
+Aqui você pode explorar meus projetos feitos com
+JavaScript, HTML e CSS.
+</p>
+
+<div class="hero-input">
+    <input class="search-input" type="text" placeholder="Pesquise os aqui projetos...">
+    <button class="search-btn"><i class="fa-solid fa-search"></i></button>
+</div>
+
+</section>
+
+<section class="menu">
+
+    <h1 class="title-menu">Meus projetos</h1>
+
+    <section class="card-grid">
+    
+    <div class="card">
+        <h2 class="card-title">Projeto 1</h2>
+        <p class="card-description">Descrição do projeto 1.</p  >
+        <button class="card-btn">Abrir</button>
+    </div>
+
+    <div class="card">
+        <h2 class="card-title">Projeto 1</h2>
+        <p class="card-description">Descrição do projeto 1.</p  >
+        <button class="card-btn">Abrir</button>
+    </div>
+
+    <div class="card">
+        <h2 class="card-title">Projeto 1</h2>
+        <p class="card-description">Descrição do projeto 1.</p  >
+        <button class="card-btn">Abrir</button>
+    </div>
+    </section>
+ 
+
+</section>
+</main>
 </body>
 </html>
