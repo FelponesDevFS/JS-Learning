@@ -7,6 +7,7 @@
 <title>Botão</title>
 
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -15,40 +16,52 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <body>
 
-<header class="cabecalho">
+<header class="header-content">
 
-<div class="logo">
+<div class="header-logo">
 <img src="https://static3.tgcnt.ru/posts/_0/87/878f1af885a38d91b7efcfa4abdabcc5.jpg">
-<h1 class="title">FelponesProjects</h1>
+<h1 class="header-title">FelponesProjects</h1>
 </div>
 
-<nav class="list-button">
+<nav class="nav-menu">
 
-<a class="btn-single" href="">
+<a class="nav-btn" href="">
 <i class="fa-solid fa-house fa-lg"></i>
 <span class="tooltip">Home</span>
 </a>
 
-<a class="btn-single" href="">
+<a class="nav-btn" href="">
 <i class="fa-solid fa-user"></i>
 <span class="tooltip">Profile</span>
 </a>
 
-<a class="btn-single" href="">
+<a class="nav-btn" href="">
 <i class="fa-solid fa-folder"></i>
 <span class="tooltip">Projects</span>
 </a>
 
-<a class="btn-single" href="">
+<a class="nav-btn" href="">
 <i id="gear-icon" class="fa-solid fa-gear fa-lg"></i>
 <span class="tooltip">Settings</span>
 </a>
 
-<a class="btn-registre" href="">
-Sign-up
 
-</a>
+
+
 </nav>
+
+<div class="header-actions">
+    <a class="nav-btn-registre" href="">
+    Sign-up
+    </a>
+    
+    <a class="nav-theme-sun" href="">
+    <i id="sun-icon" class="fa-solid fa-sun fa-lg"></i>
+    <span class="tooltip">Light Mode</span>
+    </a>
+
+</div>
+
 
 </header>
 
@@ -74,13 +87,13 @@ JavaScript, HTML e CSS.
 
 <section class="menu">
 
-    <h1 class="title-menu">Meus projetos</h1>
+    <h1 class="menu-title">Meus projetos</h1>
 
     <section class="card-grid">
     
     <div class="card">
         <h2 class="card-title">Projeto 1</h2>
-        <p class="card-description">Descrição do projeto 1.</p  >
+        <p class="card-description"> Descrição do projeto 1.</p  >
         <button class="card-btn">Abrir</button>
     </div>
 
